@@ -1,0 +1,33 @@
+{
+    "description": {
+        "translate": "Reach"
+    },
+    "supported_items": "#minecraft:enchantable/sword",
+    "exclusive_set": "minecraft:sweeping_edge",
+    "weight": 2,
+    "max_level": 3,
+    "min_cost": {
+        "base": 5,
+        "per_level_above_first": 9
+    },
+    "max_cost": {
+        "base": 20,
+        "per_level_above_first": 9
+    },
+    "anvil_cost": 4,
+    "slots": [
+        "mainhand"
+    ],
+    "effects": {
+        "minecraft:attributes": [{
+            "id": "minecraft:enchantment.reach",
+            "attribute": "minecraft:player.entity_interaction_range",
+            "amount": {
+                "type": "minecraft:linear",
+                "base": 0.11,
+                "per_level_above_first": 0.12
+            },
+            "operation": "add_multiplied_total"
+        }]
+    }
+}

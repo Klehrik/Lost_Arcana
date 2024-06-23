@@ -1,0 +1,68 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "  i",
+        " s ",
+        "s  "
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "s": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "id": "minecraft:iron_sword",
+        "components": {
+            "item_name": "{'text': 'Iron Spear', 'italic': false}",
+            "lore": [
+                "{'text': ''}",
+                "{'text': 'When in Main Hand:', 'italic': false, 'color': gray}",
+                "{'text': ' 6 Attack Damage', 'italic': false, 'color': dark_green}",
+                "{'text': ' 0.9 Attack Speed', 'italic': false, 'color': dark_green}",
+                "{'text': ' +40% Reach', 'italic': false, 'color': dark_green}"
+            ],
+            "max_damage": 250,
+            "attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "id": "lost_arcana:iron_spear.attack_damage",
+                        "type": "minecraft:generic.attack_damage",
+                        "amount": 5,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    },
+                    {
+                        "id": "lost_arcana:iron_spear.attack_speed",
+                        "type": "minecraft:generic.attack_speed",
+                        "amount": -3.1,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    },
+                    {
+                        "id": "lost_arcana:iron_spear.entity_interaction_range",
+                        "type": "minecraft:player.entity_interaction_range",
+                        "amount": 1.2,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    },
+                    {
+                        "id": "lost_arcana:iron_spear.sweeping_damage_ratio",
+                        "type": "minecraft:player.sweeping_damage_ratio",
+                        "amount": -1,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    }
+                ],
+                "show_in_tooltip": true
+            },
+            "rarity": "common",
+            "custom_data": {
+                "lost_arcana_spear": true
+            },
+            "custom_model_data": 3
+        }
+    }
+}

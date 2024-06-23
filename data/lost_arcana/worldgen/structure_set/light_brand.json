@@ -1,0 +1,14 @@
+{
+    "placement": {
+        "type": "minecraft:random_spread",
+        "separation": 8,
+        "spacing": 16,
+        "salt": 1242607375
+    },
+    "structures": [
+        {
+            "structure": "lost_arcana:light_brand",
+            "weight": 1
+        }
+    ]
+}

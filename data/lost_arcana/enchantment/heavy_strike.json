@@ -1,0 +1,43 @@
+{
+    "description": {
+        "translate": "Heavy Strike"
+    },
+    "supported_items": "#minecraft:enchantable/sharp_weapon",
+    "exclusive_set": "#minecraft:exclusive_set/damage",
+    "weight": 8,
+    "max_level": 5,
+    "min_cost": {
+        "base": 1,
+        "per_level_above_first": 11
+    },
+    "max_cost": {
+        "base": 21,
+        "per_level_above_first": 11
+    },
+    "anvil_cost": 1,
+    "slots": [
+        "mainhand"
+    ],
+    "effects": {
+        "minecraft:damage": [{
+            "effect": {
+                "type": "minecraft:add",
+                "value": {
+                    "type": "minecraft:linear",
+                    "base": 2.0,
+                    "per_level_above_first": 1.0
+                }
+            }
+        }],
+        "minecraft:attributes": [{
+            "id": "minecraft:enchantment.heavy_strike",
+            "attribute": "minecraft:generic.attack_speed",
+            "amount": {
+                "type": "minecraft:linear",
+                "base": -0.33,
+                "per_level_above_first": 0.0
+            },
+            "operation": "add_multiplied_base"
+        }]
+    }
+}

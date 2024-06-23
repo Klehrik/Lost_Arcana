@@ -1,0 +1,14 @@
+## SelectedItem requirement
+"requirements": {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "SelectedItem": {
+            "Enchantments": [
+                {
+                    "id": "lost_arcana:sniper"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "description": {
+        "translate": "Lifesteal"
+    },
+    "supported_items": "#minecraft:enchantable/sharp_weapon",
+    "weight": 2,
+    "max_level": 1,
+    "min_cost": {
+        "base": 20,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 50,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 4,
+    "slots": [
+        "mainhand"
+    ],
+    "effects": {
+        "minecraft:post_attack": [{
+            "affected": "victim",
+            "effect": {
+                "type": "minecraft:run_function",
+                "function": "lost_arcana:heal_attacker"
+            },
+            "enchanted": "attacker",
+            "requirements": {
+                "condition": "minecraft:damage_source_properties",
+                "predicate": {
+                    "is_direct": true
+                }
+            }
+        }]
+    }
+}

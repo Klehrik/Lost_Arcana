@@ -1,0 +1,33 @@
+{
+    "description": {
+        "translate": "Sprinter"
+    },
+    "supported_items": "#minecraft:enchantable/foot_armor",
+    "exclusive_set": "#lost_arcana:exclusive_set/sprinter",
+    "weight": 2,
+    "max_level": 3,
+    "min_cost": {
+        "base": 10,
+        "per_level_above_first": 10
+    },
+    "max_cost": {
+        "base": 25,
+        "per_level_above_first": 10
+    },
+    "anvil_cost": 4,
+    "slots": [
+        "feet"
+    ],
+    "effects": {
+        "minecraft:attributes": [{
+            "id": "minecraft:enchantment.sprinter",
+            "attribute": "minecraft:generic.movement_speed",
+            "amount": {
+                "type": "minecraft:linear",
+                "base": 0.1,
+                "per_level_above_first": 0.04
+            },
+            "operation": "add_multiplied_base"
+        }]
+    }
+}

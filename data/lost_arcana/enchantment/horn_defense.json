@@ -1,0 +1,35 @@
+{
+    "description": {
+        "translate": "Sound of Fortification"
+    },
+    "supported_items": "minecraft:goat_horn",
+    "exclusive_set": "#lost_arcana:horns",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+        "base": 20,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 50,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 10,
+    "slots": [
+        "mainhand",
+        "offhand"
+    ],
+    "effects": {
+        "minecraft:tick": [{
+            "effect": {
+                "type": "minecraft:run_function",
+                "function": "lost_arcana:horn_defense/check"
+            },
+            "requirements": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {}
+            }
+        }]
+    }
+}

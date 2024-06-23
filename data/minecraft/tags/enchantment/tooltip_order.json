@@ -1,0 +1,75 @@
+{
+    "values": [
+        "minecraft:binding_curse",
+        "minecraft:vanishing_curse",
+        "minecraft:riptide",
+        "minecraft:channeling",
+        "minecraft:wind_burst",
+        "minecraft:frost_walker",
+        "minecraft:sharpness",
+
+        "lost_arcana:heavy_strike",
+
+        "minecraft:smite",
+        "minecraft:bane_of_arthropods",
+        "minecraft:impaling",
+        "minecraft:power",
+        "minecraft:density",
+        "minecraft:breach",
+
+        "lost_arcana:sniper",
+
+        "minecraft:piercing",
+        "minecraft:sweeping_edge",
+        
+        "lost_arcana:reach",
+
+        "minecraft:multishot",
+        "minecraft:fire_aspect",
+
+        "lost_arcana:frost_aspect",
+
+        "minecraft:flame",
+        "minecraft:knockback",
+        "minecraft:punch",
+        "minecraft:protection",
+        "minecraft:blast_protection",
+        "minecraft:fire_protection",
+        "minecraft:projectile_protection",
+
+        "lost_arcana:spring_jump",
+
+        "minecraft:feather_falling",
+        "minecraft:fortune",
+        
+        "lost_arcana:harvest",
+
+        "minecraft:looting",
+        "minecraft:silk_touch",
+
+        "lost_arcana:smelting",
+
+        "minecraft:luck_of_the_sea",
+        "minecraft:efficiency",
+        "minecraft:quick_charge",
+        "minecraft:lure",
+        "minecraft:respiration",
+        "minecraft:aqua_affinity",
+        "minecraft:soul_speed",
+        "minecraft:swift_sneak",
+
+        "lost_arcana:turtle_sneak",
+        "lost_arcana:sprinter",
+
+        "minecraft:depth_strider",
+        "minecraft:thorns",
+
+        "lost_arcana:vitality",
+        "lost_arcana:lifesteal",
+
+        "minecraft:loyalty",
+        "minecraft:unbreaking",
+        "minecraft:infinity",
+        "minecraft:mending"
+    ]
+}

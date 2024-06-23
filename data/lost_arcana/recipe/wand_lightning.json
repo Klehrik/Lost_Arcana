@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        " L ",
+        " a ",
+        " s "
+    ],
+    "key": {
+        "L": {
+            "item": "minecraft:lightning_rod"
+        },
+        "a": {
+            "item": "minecraft:amethyst_shard"
+        },
+        "s": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "id": "minecraft:stick",
+        "components": {
+            "item_name": "{'text': 'Wand of Stunning', 'italic': false}",
+            "food": {
+                "nutrition": 0,
+                "saturation": 0,
+                "can_always_eat": true,
+                "eat_seconds": 2147483647
+            },
+            "custom_data": {
+                "lost_arcana_wand": true,
+                "lost_arcana_wand_lightning": true
+            },
+            "max_stack_size": 1,
+            "enchantment_glint_override": true,
+            "rarity": "uncommon"
+        }
+    }
+}

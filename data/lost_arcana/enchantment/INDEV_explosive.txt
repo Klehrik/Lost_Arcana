@@ -1,0 +1,42 @@
+{
+    "description": {
+        "translate": "Explosive"
+    },
+    "supported_items": "#minecraft:enchantable/trident",
+    "exclusive_set": "minecraft:channeling",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+        "base": 25,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 50,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 8,
+    "slots": [
+        "mainhand"
+    ],
+    "effects": {
+        "minecraft:hit_block": [{
+            "effect": {
+                "type": "minecraft:explode",
+                "attribute_to_user": true,
+                "damage_type": "minecraft:explosion",
+                "radius": 3,
+                "create_fire": true,
+                "block_interaction": "none",
+                "small_particle": {
+                    "type": "minecraft:smoke",
+                    "count": 10
+                },
+                "large_particle": {
+                    "type": "minecraft:large_smoke",
+                    "count": 10
+                },
+                "sound": "minecraft:block.glass.break"
+            }
+        }]
+    }
+}

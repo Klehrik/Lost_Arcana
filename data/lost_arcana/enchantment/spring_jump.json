@@ -1,0 +1,33 @@
+{
+    "description": {
+        "translate": "Spring Jump"
+    },
+    "supported_items": "#minecraft:enchantable/foot_armor",
+    "exclusive_set": "minecraft:feather_falling",
+    "weight": 4,
+    "max_level": 2,
+    "min_cost": {
+        "base": 10,
+        "per_level_above_first": 10
+    },
+    "max_cost": {
+        "base": 25,
+        "per_level_above_first": 10
+    },
+    "anvil_cost": 2,
+    "slots": [
+        "feet"
+    ],
+    "effects": {
+        "minecraft:attributes": [{
+            "id": "minecraft:enchantment.spring_jump",
+            "attribute": "minecraft:generic.jump_strength",
+            "amount": {
+                "type": "minecraft:linear",
+                "base": 0.17,
+                "per_level_above_first": 0.15
+            },
+            "operation": "add_value"
+        }]
+    }
+}
