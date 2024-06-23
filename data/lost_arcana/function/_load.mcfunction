@@ -52,4 +52,5 @@ scoreboard objectives add lost_arcana_proj_id_wand_lightning dummy
 scoreboard objectives add lost_arcana_proj_id_light_brand dummy
 
 # Misc.
-#scoreboard players set doFireTick lost_arcana_variable 0
+# scoreboard objectives add lost_arcana_dead deathCount
+# scoreboard objectives add lost_arcana_lantern_id dummy

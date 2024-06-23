@@ -29,4 +29,12 @@ Item | Effect | Obtain Method
 Wand of Sparking | Fires a small flame that ignites the entity or block hit within a 40-block range. Deals 2 magic damage. Has a 1.5-second cooldown. | ![image](https://github.com/Klehrik/Lost_Arcana/assets/78520710/d5c70b1b-bc30-4331-9a58-f1167bccdec0)
 Wand of Stunning | Fires a shock bolt that stuns the entity hit for 2 seconds within a 40-block range. Deals 2 magic damage. Has a 3-second cooldown. | ![image](https://github.com/Klehrik/Lost_Arcana/assets/78520710/151bdf0d-1345-403a-a2fe-baaadd1d1ba7)
 Wand of Ice | Summons a block of ice with a lifetime of 5 seconds in front of you. Has a 0.25-second cooldown. | Igloo
-Light Brand | | Pedestal (Jungle)
+Hand Lantern | Emits a weak light when held. | recipe
+Crystal Lantern | Emits a strong light when held. | recipe
+
+### Weapons
+Weapon | Stats | Obtain Method
+:----: | :---: | :-----------:
+Light Brand | 6 Attack Damage, 1.8 Attack Speed, +15% Reach. Right-click to fire a projectile for 6 magic damage; has a 2-second cooldown. | Pedestal (Jungle)
+Greatsword | 9.5 Attack Damage, 0.9 Attack Speed, +15% Reach. Has recovery time after a successful attack. | Village Weaponsmith Chest
+Crystal Greatsword | 12 Attack Damage, 0.9 Attack Speed, +15% Reach. Has recovery time after a successful attack. | Stronghold Storage Room

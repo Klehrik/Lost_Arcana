@@ -46,6 +46,13 @@ function lost_arcana:wand_lightning/tick
 function lost_arcana:wand_ice/tick
 function lost_arcana:light_brand/tick
 
+
+# Lanterns
+execute as @e[tag=lost_arcana_light_marker] at @s run function lost_arcana:lantern/destroy_light
+execute as @a at @s if data entity @s SelectedItem.components."minecraft:custom_data".lost_arcana_lantern run function lost_arcana:lantern/create_light
+execute as @a at @s if data entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".lost_arcana_lantern run function lost_arcana:lantern/create_light
+
+
 # Add max_stack_size component to egg and snowball item entities
 execute as @e[type=item, nbt={Item:{id:"minecraft:egg"}}] run data merge entity @s {Item:{components:{max_stack_size:64}}}
 execute as @e[type=item, nbt={Item:{id:"minecraft:snowball"}}] run data merge entity @s {Item:{components:{max_stack_size:64}}}
@@ -60,10 +67,14 @@ execute as @e[type=glow_item_frame, nbt={Item:{}}] run data modify entity @s Inv
 execute as @e[type=glow_item_frame, nbt=!{Item:{}}] run data modify entity @s Invulnerable set value true
 
 
+# Reset deathCount
+#scoreboard players set @a lost_arcana_dead 0
+
+
 
 # Reenable doFireTick
 # execute if score doFireTick lost_arcana_variable = 1 lost_arcana_number run gamerule doFireTick true
 # execute if score doFireTick lost_arcana_variable > 0 lost_arcana_number run scoreboard players remove doFireTick lost_arcana_number 1
 
 # Debug
-#execute as @e[type=marker] at @s run particle minecraft:happy_villager ~ ~ ~ 0 0 0 0 1
+#execute as @e[type=marker] at @s run particle minecraft:composter ~ ~ ~ 0 0 0 0 1

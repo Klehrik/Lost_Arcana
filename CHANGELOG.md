@@ -56,3 +56,11 @@
     - Fixed not working in some places due to having a different type of "air"
 - Added enchantment glint to wands and changed rarity to "uncommon" (throw existing ones on the ground to apply)
 - Wands now aggro targets hit (good lord this was bad to write)
+
+### v1.2.4
+- Added Greatsword
+    - Early-game weapon found in village weaponsmith buildings
+- Added Crystal Greatsword
+    - Found in stronghold storage rooms
+- Added Hand Lantern
+- Added Crystal Lantern

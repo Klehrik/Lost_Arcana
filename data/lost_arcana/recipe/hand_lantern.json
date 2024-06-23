@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "iii",
+        "iGi",
+        "iii"
+    ],
+    "key": {
+        "G": {
+            "item": "minecraft:glow_ink_sac"
+        },
+        "i": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "id": "minecraft:iron_ingot",
+        "components": {
+            "item_name": "{'text': 'Hand Lantern', 'italic': false}",
+            "custom_data": {
+                "lost_arcana_lantern": true,
+                "lost_arcana_lantern_weak": true
+            },
+            "max_stack_size": 1,
+            "enchantment_glint_override": true
+        }
+    }
+}
