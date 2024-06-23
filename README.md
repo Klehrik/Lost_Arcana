@@ -29,8 +29,8 @@ Item | Effect | Obtain Method
 Wand of Sparking | Fires a small flame that ignites the entity or block hit within a 40-block range. Deals 2 magic damage. Has a 1.5-second cooldown. | ![image](https://github.com/Klehrik/Lost_Arcana/assets/78520710/d5c70b1b-bc30-4331-9a58-f1167bccdec0)
 Wand of Stunning | Fires a shock bolt that stuns the entity hit for 2 seconds within a 40-block range. Deals 2 magic damage. Has a 3-second cooldown. | ![image](https://github.com/Klehrik/Lost_Arcana/assets/78520710/151bdf0d-1345-403a-a2fe-baaadd1d1ba7)
 Wand of Ice | Summons a block of ice with a lifetime of 5 seconds in front of you. Has a 0.25-second cooldown. | Igloo
-Hand Lantern | Emits a weak light when held. | recipe
-Crystal Lantern | Emits a strong light when held. | recipe
+Hand Lantern | Emits a weak light when held. | ![image](https://github.com/Klehrik/Lost_Arcana/assets/78520710/65ddfcfe-d15d-4d2b-bc6c-1e2708393ca9)
+Crystal Lantern | Emits a strong light when held. | ![image](https://github.com/Klehrik/Lost_Arcana/assets/78520710/ba7747a3-54c7-422e-8d24-9953ba3e7b6d)
 
 ### Weapons
 Weapon | Stats | Obtain Method
