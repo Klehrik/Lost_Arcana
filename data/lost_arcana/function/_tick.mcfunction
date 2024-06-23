@@ -58,9 +58,9 @@ execute as @e[type=item, nbt={Item:{id:"minecraft:egg"}}] run data merge entity 
 execute as @e[type=item, nbt={Item:{id:"minecraft:snowball"}}] run data merge entity @s {Item:{components:{max_stack_size:64}}}
 
 # Add enchantment glint to preexisting wand item entities
-execute as @e[type=item, nbt={Item:{components:{"minecraft:custom_data":{lost_arcana_wand_spark:true}}}}] run data merge entity @s {Item:{components:{enchantment_glint_override:true,rarity:"uncommon"}}}
-execute as @e[type=item, nbt={Item:{components:{"minecraft:custom_data":{lost_arcana_wand_lightning:true}}}}] run data merge entity @s {Item:{components:{enchantment_glint_override:true,rarity:"uncommon"}}}
-execute as @e[type=item, nbt={Item:{components:{"minecraft:custom_data":{lost_arcana_wand_ice:true}}}}] run data merge entity @s {Item:{components:{enchantment_glint_override:true,rarity:"uncommon"}}}
+execute as @e[type=item, nbt={Item:{components:{"minecraft:custom_data":{lost_arcana_wand_spark:true}}}}] run data merge entity @s {Item:{components:{enchantment_glint_override:true,rarity:"uncommon","minecraft:custom_data":{lost_arcana_wand:true}}}}
+execute as @e[type=item, nbt={Item:{components:{"minecraft:custom_data":{lost_arcana_wand_lightning:true}}}}] run data merge entity @s {Item:{components:{enchantment_glint_override:true,rarity:"uncommon","minecraft:custom_data":{lost_arcana_wand:true}}}}
+execute as @e[type=item, nbt={Item:{components:{"minecraft:custom_data":{lost_arcana_wand_ice:true}}}}] run data merge entity @s {Item:{components:{enchantment_glint_override:true,rarity:"uncommon","minecraft:custom_data":{lost_arcana_wand:true}}}}
 
 # Set Light Brand pedestal item frame to invulnerable if there is nothing inside of it
 execute as @e[type=glow_item_frame, nbt={Item:{}}] run data modify entity @s Invulnerable set value false

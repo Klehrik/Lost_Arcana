@@ -64,3 +64,7 @@
     - Found in stronghold storage rooms
 - Added Hand Lantern
 - Added Crystal Lantern
+
+### v1.2.5
+- Fix for preexisting wands
+- Increases brightness for Crystal Lantern
