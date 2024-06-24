@@ -67,4 +67,7 @@
 
 ### v1.2.5
 - Fix for preexisting wands
-- Increases brightness for Crystal Lantern
+- Increased brightness for Crystal Lantern
+
+### v1.2.6
+- Lanterns no longer make "noise" (previously triggered sculk sensors)
