@@ -67,6 +67,11 @@ execute as @e[type=glow_item_frame, nbt={Item:{}}] run data modify entity @s Inv
 execute as @e[type=glow_item_frame, nbt=!{Item:{}}] run data modify entity @s Invulnerable set value true
 
 
+# Trigger Totem of Undying when falling into the void in the End
+execute as @a[nbt={SelectedItem:{id:"minecraft:totem_of_undying"}}] run function lost_arcana:totem_void
+execute as @a[nbt={Inventory:[{id:"minecraft:totem_of_undying", Slot:-106b}]}] run function lost_arcana:totem_void
+
+
 # Reset deathCount
 #scoreboard players set @a lost_arcana_dead 0
 

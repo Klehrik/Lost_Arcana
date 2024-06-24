@@ -4,6 +4,7 @@ Datapack that adds new [enchantments](https://github.com/Klehrik/Lost_Arcana?tab
 ### Misc. Changes
 * Allows Fire Aspect to be applied to axes.
 * Eggs and Snowballs are stackable to 64.
+* Totem of Undying protects against dying to the void.
 
 ### Enchantment List
 Enchantment | Max | Effect | Applies to | Incompatibilities | Enchantment Table (or obtain method)

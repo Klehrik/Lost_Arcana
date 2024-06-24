@@ -17,6 +17,7 @@ scoreboard players set 8 lost_arcana_number 8
 scoreboard players set 9 lost_arcana_number 9
 scoreboard players set 10 lost_arcana_number 10
 scoreboard players set 100 lost_arcana_number 100
+scoreboard players set -63 lost_arcana_number -63
 
 
 # Create cooldown objectives

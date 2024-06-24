@@ -15,9 +15,9 @@ function lost_arcana:wand_spark/hit_block
 tag @s remove lost_arcana_proj_hit
 
 # Create particles
-particle minecraft:flame ~ ~ ~ 0.1 0.1 0.1 0 2
+particle minecraft:flame ~ ~ ~ 0.1 0.1 0.1 0 1 force
 
 # Lifetime
 scoreboard players add @s lost_arcana_lifetime 1
-execute if score @s lost_arcana_lifetime >= @s lost_arcana_max_lifetime run particle minecraft:large_smoke ~ ~ ~ 0.25 0.25 0.25 0 6
+execute if score @s lost_arcana_lifetime >= @s lost_arcana_max_lifetime run particle minecraft:large_smoke ~ ~ ~ 0.25 0.25 0.25 0 6 force
 execute if score @s lost_arcana_lifetime >= @s lost_arcana_max_lifetime run kill

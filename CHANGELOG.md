@@ -71,3 +71,7 @@
 
 ### v1.2.6
 - Lanterns no longer make "noise" (previously triggered sculk sensors)
+
+### v1.2.7
+- Changed some particle settings for the particle projectiles
+- Totem of Undying now saves you from the void in the End
