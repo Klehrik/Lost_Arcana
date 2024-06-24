@@ -37,4 +37,4 @@ Weapon | Stats | Obtain Method
 :----: | :---: | :-----------:
 Light Brand | 6 Attack Damage, 1.8 Attack Speed, +15% Reach. Right-click to fire a projectile for 6 magic damage; has a 2-second cooldown. | Pedestal (Jungle)
 Greatsword | 9.5 Attack Damage, 0.9 Attack Speed, +15% Reach. Has recovery time after a successful attack. | Village Weaponsmith Chest
-Crystal Greatsword | 12 Attack Damage, 0.9 Attack Speed, +15% Reach. Has recovery time after a successful attack. | Stronghold Storage Room
+Crystal Greatsword | 12 Attack Damage, 0.9 Attack Speed, +15% Reach. Has recovery time after a successful attack. | Stronghold Storeroom
