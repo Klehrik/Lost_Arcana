@@ -43,5 +43,5 @@ Weapon | Stats | Obtain Method
 Light Brand | 6 Attack Damage, 1.8 Attack Speed, +15% Reach. Right-click to fire a projectile for 6 magic damage; has a 2-second cooldown. | Pedestal (Jungle)
 Greatsword | 9.5 Attack Damage, 0.9 Attack Speed, +15% Reach. Has recovery time after a successful attack. | Village Weaponsmith Chest
 Crystal Greatsword | 12 Attack Damage, 0.9 Attack Speed, +15% Reach. Has recovery time after a successful attack. | Stronghold Storeroom
-Wakizashi | 4.5 Attack Damage, 1.8 Attack Speed, -15% Reach. Right-click to perform a parry, blocking 80% damage and granting Strength I for 1 second. | ![image](https://github.com/Klehrik/Lost_Arcana/assets/78520710/37347791-8e2b-46b6-8b6c-acccbab0e0db)
+Wakizashi | 5 Attack Damage, 1.8 Attack Speed, -15% Reach. Right-click to perform a parry, blocking 80% damage and granting Strength I for 1 second. | ![image](https://github.com/Klehrik/Lost_Arcana/assets/78520710/37347791-8e2b-46b6-8b6c-acccbab0e0db)
 Echo Blade | 7 Attack Damage, 1.8 Attack Speed. Two-Handed. Right-click to perform a boosted parry, blocking 80% damage and granting Strength II for 1 second. | ![image](https://github.com/Klehrik/Lost_Arcana/assets/78520710/b270a962-6a97-4be2-9e07-f5ce13e4c3a2)

@@ -57,7 +57,7 @@ function lost_arcana:parry/tick
 
 # Display parry text
 execute as @a unless score @s lost_arcana_display_parry_text = @s lost_arcana_display_parry_text run scoreboard players set @s lost_arcana_display_parry_text 0
-execute as @a if score @s lost_arcana_display_parry_text > 0 lost_arcana_number run title @s actionbar [{"text": "Parried!", "color": "aqua"}]
+execute as @a if score @s lost_arcana_display_parry_text > 0 lost_arcana_number run title @s actionbar [{"text": "░░", "color": "aqua"}, {"text": " Parried! ", "color": "aqua"}, {"text": "░░", "color": "gray"}]
 execute as @a if score @s lost_arcana_display_parry_text > 0 lost_arcana_number run scoreboard players remove @s lost_arcana_display_parry_text 1
 
 
