@@ -1,5 +1,5 @@
 # Lost Arcana
-Datapack that adds new [enchantments](https://github.com/Klehrik/Lost_Arcana?tab=readme-ov-file#enchantment-list) and [items](https://github.com/Klehrik/Lost_Arcana?tab=readme-ov-file#items) to Minecraft, as well as shifting around various vanilla items.  
+Datapack that adds new [enchantments](https://github.com/Klehrik/Lost_Arcana?tab=readme-ov-file#enchantment-list) and [items](https://github.com/Klehrik/Lost_Arcana?tab=readme-ov-file#items) to Minecraft, as well as making some vanilla changes.
 
 ### Misc. Changes
 * Allows Fire Aspect to be applied to axes.
