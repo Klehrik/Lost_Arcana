@@ -1,4 +1,4 @@
-### v1.0.0
+## v1.0.0
 - Initial release
 
 ### v1.0.1
@@ -9,7 +9,7 @@
 - Smelting is no longer incompatible with Fortune
 - Increased Turtle Sneak DR: 30% -> 35%
 
-### v1.1.0
+## v1.1.0
 - Added enchants to goat horns
     - Sound of Power
     - Sound of Life
@@ -34,7 +34,7 @@
     - Horn buffs now affect nearby players (within 16 blocks), but also starts their cooldown for that buff type
         - This is to allow a single player to buff their allies, but prevents maintaining 100% uptime with enough players
 
-### v1.2.0
+## v1.2.0
 - Added Wand of Sparking
 
 ### v1.2.1
@@ -75,3 +75,14 @@
 ### v1.2.7
 - Changed some particle settings for the particle projectiles
 - Totem of Undying now saves you from the void in the End
+
+## v1.3.0
+- Recovery Compass is now craftable with early-game materials
+- Decreased Woodland Mansion spawning separation and spacing (i.e., increasing spawn rate)
+- Decreased Light Brand Pedestal spawning spacing (i.e., increasing spawn rate)
+- Added Ender Satchel
+- Added Echo Blade
+- Added Wakizashi
+- Reduced Shield durability and increased iron cost
+- Charge meters now display when holding in the offhand
+- Wand of Ice has better place targeting and can now place directly in front

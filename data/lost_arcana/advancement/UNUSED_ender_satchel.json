@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "components": {
+                        "minecraft:custom_data": {
+                            "lost_arcana_ender_satchel": true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "lost_arcana:ender_satchel/use"
+    }
+}

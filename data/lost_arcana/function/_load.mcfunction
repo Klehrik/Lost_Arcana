@@ -20,6 +20,10 @@ scoreboard players set 100 lost_arcana_number 100
 scoreboard players set -63 lost_arcana_number -63
 
 
+# Misc.
+scoreboard objectives add lost_arcana_player_id dummy
+scoreboard players set color lost_arcana_parameter 0
+
 # Create cooldown objectives
 scoreboard objectives add lost_arcana_horn_used minecraft.used:minecraft.goat_horn
 scoreboard objectives add lost_arcana_cd_display dummy
@@ -32,6 +36,9 @@ scoreboard objectives add lost_arcana_wand_cd_spark dummy
 scoreboard objectives add lost_arcana_wand_cd_lightning dummy
 scoreboard objectives add lost_arcana_wand_cd_ice dummy
 scoreboard objectives add lost_arcana_cd_light_brand dummy
+scoreboard objectives add lost_arcana_cd_parry dummy
+scoreboard objectives add lost_arcana_parry_duration dummy
+scoreboard objectives add lost_arcana_display_parry_text dummy
 
 # Set cooldowns (in ticks)
 scoreboard players set max_cd lost_arcana_horn_cd_strength 400
@@ -41,17 +48,10 @@ scoreboard players set max_cd lost_arcana_wand_cd_spark 30
 scoreboard players set max_cd lost_arcana_wand_cd_lightning 60
 scoreboard players set max_cd lost_arcana_wand_cd_ice 5
 scoreboard players set max_cd lost_arcana_cd_light_brand 40
+scoreboard players set max_cd lost_arcana_cd_parry 50
+scoreboard players set max_duration lost_arcana_parry_duration 7
+scoreboard players set max_duration lost_arcana_display_parry_text 20
 
 # Custom projectiles
 scoreboard objectives add lost_arcana_lifetime dummy
 scoreboard objectives add lost_arcana_max_lifetime dummy
-
-# Projectile ID storage
-# god why can't we store entity ids oooaaauuuggghhh
-scoreboard objectives add lost_arcana_proj_id_wand_spark dummy
-scoreboard objectives add lost_arcana_proj_id_wand_lightning dummy
-scoreboard objectives add lost_arcana_proj_id_light_brand dummy
-
-# Misc.
-# scoreboard objectives add lost_arcana_dead deathCount
-# scoreboard objectives add lost_arcana_lantern_id dummy

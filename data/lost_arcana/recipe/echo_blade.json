@@ -1,0 +1,68 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        " E ",
+        " E ",
+        " s "
+    ],
+    "key": {
+        "E": {
+            "item": "minecraft:echo_shard"
+        },
+        "s": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "id": "minecraft:netherite_sword",
+        "components": {
+            "item_name": "{'text': 'Echo Blade', 'italic': false}",
+            "lore": [
+                "{'text': ''}",
+                "{'text': 'Right-click to perform', 'italic': false, 'color': gray}",
+                "{'text': 'a boosted parry', 'italic': false, 'color': gray}",
+                "{'text': ''}",
+                "{'text': 'When in Main Hand:', 'italic': false, 'color': gray}",
+                "{'text': ' 7 Attack Damage', 'italic': false, 'color': dark_green}",
+                "{'text': ' 1.8 Attack Speed', 'italic': false, 'color': dark_green}"
+            ],
+            "food": {
+                "nutrition": 0,
+                "saturation": 0,
+                "can_always_eat": true,
+                "eat_seconds": 2147483647
+            },
+            "max_damage": 400,
+            "attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "id": "lost_arcana:echo_blade.attack_damage",
+                        "type": "minecraft:generic.attack_damage",
+                        "amount": 6,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    },
+                    {
+                        "id": "lost_arcana:echo_blade.attack_speed",
+                        "type": "minecraft:generic.attack_speed",
+                        "amount": -2.2,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    }
+                ],
+                "show_in_tooltip": false
+            },
+            "enchantments": {
+                "levels": {
+                    "lost_arcana:two_handed": 1
+                }
+            },
+            "custom_data": {
+                "lost_arcana_echo_blade": true,
+                "lost_arcana_parry": true,
+                "lost_arcana_strong_parry": true
+            }
+        }
+    }
+}

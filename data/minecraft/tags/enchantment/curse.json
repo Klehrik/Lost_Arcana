@@ -3,6 +3,7 @@
         "minecraft:binding_curse",
         "minecraft:vanishing_curse",
 
-        "lost_arcana:weighty"
+        "lost_arcana:weighty",
+        "lost_arcana:two_handed"
     ]
 }

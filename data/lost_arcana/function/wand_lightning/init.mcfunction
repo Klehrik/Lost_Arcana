@@ -1,7 +1,7 @@
 ## Wand Lightning : Init
 
-# Set proj_id value
-scoreboard players operation @s lost_arcana_proj_id_wand_lightning = proj_id lost_arcana_variable
+# Copy player ID
+function lost_arcana:player_id/copy
 
 tag @s add lost_arcana_wand_lightning_projectile
 

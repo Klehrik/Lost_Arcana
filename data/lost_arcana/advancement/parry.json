@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": "{lost_arcana_parry: true}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "lost_arcana:parry/check"
+    }
+}

@@ -7,3 +7,4 @@ execute as @e[nbt={Tags:["lost_arcana_wand_ice_block"]}, scores={lost_arcana_var
 
 # Charge Display
 execute as @a if data entity @s SelectedItem.components."minecraft:custom_data".lost_arcana_wand_ice run function lost_arcana:wand_ice/charge_display
+execute as @a if data entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".lost_arcana_wand_ice run function lost_arcana:wand_ice/charge_display

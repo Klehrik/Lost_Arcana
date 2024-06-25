@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        " s ",
+        "sEs",
+        " s "
+    ],
+    "key": {
+        "E": {
+            "item": "minecraft:ender_chest"
+        },
+        "s": {
+            "item": "minecraft:shulker_shell"
+        }
+    },
+    "result": {
+        "id": "minecraft:shulker_shell",
+        "components": {
+            "item_name": "{'text': 'Ender Satchel', 'italic': false}",
+            "custom_data": {
+                "lost_arcana_ender_satchel": true
+            },
+            "max_stack_size": 1,
+            "enchantment_glint_override": true,
+            "rarity": "uncommon"
+        }
+    }
+}
