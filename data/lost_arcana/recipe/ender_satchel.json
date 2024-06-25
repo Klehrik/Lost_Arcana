@@ -2,20 +2,20 @@
     "type": "minecraft:crafting_shaped",
     "category": "misc",
     "pattern": [
-        " s ",
-        "sEs",
-        " s "
+        "ppp",
+        "pEp",
+        "ppp"
     ],
     "key": {
         "E": {
             "item": "minecraft:ender_chest"
         },
-        "s": {
-            "item": "minecraft:shulker_shell"
+        "p": {
+            "item": "minecraft:ender_pearl"
         }
     },
     "result": {
-        "id": "minecraft:shulker_shell",
+        "id": "minecraft:glow_ink_sac",
         "components": {
             "item_name": "{'text': 'Ender Satchel', 'italic': false}",
             "custom_data": {

@@ -86,3 +86,8 @@
 - Reduced Shield durability and increased iron cost
 - Charge meters now display when holding in the offhand
 - Wand of Ice has better place targeting and can now place directly in front
+
+### v1.3.1
+- Increased Weighty recovery time by 10%
+- Changed crafting recipe of Ender Satchel to be obtainable earlier
+- Fixed parry display bars showing up for all players
