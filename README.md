@@ -37,7 +37,7 @@ Wand of Stunning | Fires a shock bolt that stuns the entity hit for 2 seconds wi
 Wand of Ice | Summons a block of ice with a lifetime of 5 seconds in front of you. Has a 0.25-second cooldown. | Igloo
 Hand Lantern | Emits a weak light when held. | ![image](https://github.com/Klehrik/Lost_Arcana/assets/78520710/65ddfcfe-d15d-4d2b-bc6c-1e2708393ca9)
 Crystal Lantern | Emits a strong light when held. | ![image](https://github.com/Klehrik/Lost_Arcana/assets/78520710/ba7747a3-54c7-422e-8d24-9953ba3e7b6d)
-Ender Satchel | Summons an Ender Chest accessor when held. | recipe TBA
+Ender Satchel | Summons an Ender Chest accessor when held. | ![image](https://github.com/Klehrik/Lost_Arcana/assets/78520710/b1e629f0-ac8c-4882-86aa-92d82cbadf27)
 
 ### Weapons
 Weapon | Stats | Obtain Method
