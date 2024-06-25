@@ -26,6 +26,8 @@ Harvest | III | Increases wheat drops when collected with this tool. | Hoes | Fo
 Sound of Power | | Applies Strength I to nearby players for 10 seconds. Has a 20-second cooldown. | Horns | Other sounds | Random loot, Woodland Mansion
 Sound of Fortification | | Applies Resistance I to nearby players for 10 seconds. Has a 20-second cooldown. | Horns | Other sounds | Random loot, Woodland Mansion
 Sound of Life | | Heals 5 hearts over 3 seconds to nearby players. Has a 20-second cooldown. | Horns | Other sounds | Random loot, Woodland Mansion
+Weighty (Curse) | | Has recovery time after a successful attack. | Swords, Axes
+Two-Handed (Curse) | | Must have other hand free to prevent damage loss. | Swords, Axes
 
 ### Items
 Item | Effect | Obtain Method
@@ -41,7 +43,7 @@ Ender Satchel | Summons an Ender Chest accessor when held. | ![image](https://gi
 Weapon | Stats | Obtain Method
 :----: | :---: | :-----------:
 Light Brand | 6 Attack Damage, 1.8 Attack Speed, +15% Reach. Right-click to fire a projectile for 6 magic damage; has a 2-second cooldown. | Pedestal (Jungle)
-Greatsword | 9.5 Attack Damage, 0.9 Attack Speed, +15% Reach. Has recovery time after a successful attack. | Village Weaponsmith Chest
-Crystal Greatsword | 12 Attack Damage, 0.9 Attack Speed, +15% Reach. Has recovery time after a successful attack. | Stronghold Storeroom
+Greatsword | 9.5 Attack Damage, 0.9 Attack Speed, +15% Reach. *Weighty*. | Village Weaponsmith Chest
+Crystal Greatsword | 12 Attack Damage, 0.9 Attack Speed, +15% Reach. *Weighty*. | Stronghold Storeroom
 Wakizashi | 5 Attack Damage, 1.8 Attack Speed, -15% Reach. Right-click to perform a parry, blocking 80% damage and granting Strength I for 1 second. | ![image](https://github.com/Klehrik/Lost_Arcana/assets/78520710/37347791-8e2b-46b6-8b6c-acccbab0e0db)
-Echo Blade | 7 Attack Damage, 1.8 Attack Speed. Two-Handed. Right-click to perform a boosted parry, blocking 80% damage and granting Strength II for 1 second. | ![image](https://github.com/Klehrik/Lost_Arcana/assets/78520710/b270a962-6a97-4be2-9e07-f5ce13e4c3a2)
+Echo Blade | 7 Attack Damage, 1.8 Attack Speed. *Two-Handed*. Right-click to perform a boosted parry, blocking 80% damage and granting Strength II for 1 second. | ![image](https://github.com/Klehrik/Lost_Arcana/assets/78520710/b270a962-6a97-4be2-9e07-f5ce13e4c3a2)
