@@ -19,15 +19,27 @@
         "feet"
     ],
     "effects": {
-        "minecraft:attributes": [{
-            "id": "minecraft:enchantment.spring_jump",
-            "attribute": "minecraft:generic.jump_strength",
-            "amount": {
-                "type": "minecraft:linear",
-                "base": 0.17,
-                "per_level_above_first": 0.15
+        "minecraft:attributes": [
+            {
+                "id": "minecraft:enchantment.spring_jump.jump_strength",
+                "attribute": "minecraft:generic.jump_strength",
+                "amount": {
+                    "type": "minecraft:linear",
+                    "base": 0.17,
+                    "per_level_above_first": 0.15
+                },
+                "operation": "add_value"
             },
-            "operation": "add_value"
-        }]
+            {
+                "id": "minecraft:enchantment.spring_jump.safe_fall_distance",
+                "attribute": "minecraft:generic.safe_fall_distance",
+                "amount": {
+                    "type": "minecraft:linear",
+                    "base": 1,
+                    "per_level_above_first": 1
+                },
+                "operation": "add_value"
+            }
+        ]
     }
 }

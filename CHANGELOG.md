@@ -101,3 +101,7 @@
 - Added Shard of Experience
 - Added Fruit of Experience
 - Parry cooldown: 2.5 sec -> 2 sec
+
+### v1.3.3
+- Spring Jump now increases safe fall distance by 1 (2) blocks
+- Fixed datapack preventing players from obtaining Resistance effect
