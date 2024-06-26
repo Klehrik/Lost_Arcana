@@ -16,12 +16,15 @@ scoreboard players set 7 lost_arcana_number 7
 scoreboard players set 8 lost_arcana_number 8
 scoreboard players set 9 lost_arcana_number 9
 scoreboard players set 10 lost_arcana_number 10
+scoreboard players set 15 lost_arcana_number 15
+scoreboard players set 20 lost_arcana_number 20
 scoreboard players set 100 lost_arcana_number 100
 scoreboard players set -63 lost_arcana_number -63
 
 
 # Misc.
 scoreboard objectives add lost_arcana_player_id dummy
+scoreboard objectives add lost_arcana_level_min dummy
 scoreboard players set color lost_arcana_parameter 0
 
 # Create cooldown objectives
@@ -48,7 +51,7 @@ scoreboard players set max_cd lost_arcana_wand_cd_spark 30
 scoreboard players set max_cd lost_arcana_wand_cd_lightning 60
 scoreboard players set max_cd lost_arcana_wand_cd_ice 5
 scoreboard players set max_cd lost_arcana_cd_light_brand 40
-scoreboard players set max_cd lost_arcana_cd_parry 50
+scoreboard players set max_cd lost_arcana_cd_parry 40
 scoreboard players set max_duration lost_arcana_parry_duration 7
 scoreboard players set max_duration lost_arcana_display_parry_text 20
 

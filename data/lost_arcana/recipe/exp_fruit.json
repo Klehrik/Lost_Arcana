@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        " e ",
+        " c ",
+        " e "
+    ],
+    "key": {
+        "e": {
+            "item": "minecraft:echo_shard"
+        },
+        "c": {
+            "item": "minecraft:chorus_fruit"
+        }
+    },
+    "result": {
+        "id": "minecraft:clay_ball",
+        "components": {
+            "item_name": "{'text': 'Fruit of Experience', 'italic': false}",
+            "lore": [
+                "{'text': ''}",
+                "{'text': 'Single-use', 'italic': false, 'color': yellow}",
+                "{'text': 'Increase your minimum', 'italic': false, 'color': gray}",
+                "{'text': 'experience level by 1,', 'italic': false, 'color': gray}",
+                "{'text': 'up to 15', 'italic': false, 'color': gray}"
+            ],
+            "food": {
+                "nutrition": 0,
+                "saturation": 0,
+                "can_always_eat": true,
+                "eat_seconds": 0.1
+            },
+            "custom_data": {
+                "lost_arcana_exp_fruit": true
+            },
+            "enchantment_glint_override": true
+        }
+    }
+}

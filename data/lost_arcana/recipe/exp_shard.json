@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        " e ",
+        " a ",
+        " e "
+    ],
+    "key": {
+        "e": {
+            "item": "minecraft:echo_shard"
+        },
+        "a": {
+            "item": "minecraft:amethyst_shard"
+        }
+    },
+    "result": {
+        "id": "minecraft:echo_shard",
+        "components": {
+            "item_name": "{'text': 'Shard of Experience', 'italic': false}",
+            "lore": [
+                "{'text': ''}",
+                "{'text': 'Single-use', 'italic': false, 'color': yellow}",
+                "{'text': 'Increase your minimum', 'italic': false, 'color': gray}",
+                "{'text': 'experience level by 1,', 'italic': false, 'color': gray}",
+                "{'text': 'up to 10', 'italic': false, 'color': gray}"
+            ],
+            "food": {
+                "nutrition": 0,
+                "saturation": 0,
+                "can_always_eat": true,
+                "eat_seconds": 0.1
+            },
+            "custom_data": {
+                "lost_arcana_exp_shard": true
+            },
+            "enchantment_glint_override": true
+        }
+    }
+}

@@ -91,3 +91,13 @@
 - Increased Weighty recovery time by 10%
 - Changed crafting recipe of Ender Satchel to be obtainable earlier
 - Fixed parry display bars showing up for all players
+
+### v1.3.2
+- Parry DR: 80% -> 100%
+    - Move speed now reduced to 0 while in parry state
+- Deadshot charge time increase: +20% -> +40%
+- Wands of Sparking and Stunning now have a "common" rarity, and Wand of Ice is now "rare" (for the color lol)
+- Added Homeward Totem
+- Added Shard of Experience
+- Added Fruit of Experience
+- Parry cooldown: 2.5 sec -> 2 sec

@@ -16,7 +16,7 @@ Frost Aspect | II | Reduces the target's movement speed by 35% (Slowness 2.33) f
 Heavy Strike | V | Increases damage by 2 *(3, 4, 5, 6)*, but decreases attack speed by 33%. | Swords, Axes | Sharpness, Smite, Bane of Arthropods | ✔
 Lifesteal | | Attacking a mob heals you for 0.5 hearts. -20% attack damage. | Swords, Axes, Maces | | Random loot
 Reach | III | Increases attack distance by 11% *(23%, 35%)*. | Swords | Sweeping Edge | ✔
-Deadshot | V | Increases arrow velocity (and by extension, average damage) by 30% *(60%, 90%, 120%, 150%)*. Sneak to scope in. +20% charge time. | Crossbows | Quick Charge | ✔
+Deadshot | V | Increases arrow velocity (and by extension, average damage) by 30% *(60%, 90%, 120%, 150%)*. Sneak to scope in. +40% charge time. | Crossbows | Quick Charge | ✔
 Vitality | II | Increases your maximum health by 1 *(2)* heart(s). | Chestplates | | ✔
 Turtle Sneak | | Gain 35% DR (Resistance 1.75) while sneaking. -50% sneak movement speed. | Leggings | Swift Sneak | Ancient City
 Spring Jump | II | Increases jump height by 1 *(2)* block(s). | Boots | Feather Falling | ✔
@@ -38,6 +38,9 @@ Wand of Ice | Summons a block of ice with a lifetime of 5 seconds in front of yo
 Hand Lantern | Emits a weak light when held. | ![image](https://github.com/Klehrik/Lost_Arcana/assets/78520710/65ddfcfe-d15d-4d2b-bc6c-1e2708393ca9)
 Crystal Lantern | Emits a strong light when held. | ![image](https://github.com/Klehrik/Lost_Arcana/assets/78520710/ba7747a3-54c7-422e-8d24-9953ba3e7b6d)
 Ender Satchel | Summons an Ender Chest accessor when held. | ![image](https://github.com/Klehrik/Lost_Arcana/assets/78520710/b1e629f0-ac8c-4882-86aa-92d82cbadf27)
+Homeward Totem | Single-use. Teleport home at the cost of all experience. | recipe TBA
+Shard of Experience | Single-use. Increase your minimum experience level by 1, up to 10. | recipe TBA
+Fruit of Experience | Single-use. Increase your minimum experience level by 1, up to 15. | recipe TBA
 
 ### Weapons
 Weapon | Stats | Obtain Method
@@ -45,5 +48,5 @@ Weapon | Stats | Obtain Method
 Light Brand | 6 Attack Damage, 1.8 Attack Speed, +15% Reach. Right-click to fire a projectile for 6 magic damage; has a 2-second cooldown. | Pedestal (Jungle)
 Greatsword | 9.5 Attack Damage, 0.9 Attack Speed, +15% Reach. *Weighty*. | Village Weaponsmith Chest
 Crystal Greatsword | 12 Attack Damage, 0.9 Attack Speed, +15% Reach. *Weighty*. | Stronghold Storeroom
-Wakizashi | 5 Attack Damage, 1.8 Attack Speed, -15% Reach. Right-click to perform a parry, blocking 80% damage and granting Strength I for 1 second on success; has a 2.5-second cooldown. | ![image](https://github.com/Klehrik/Lost_Arcana/assets/78520710/37347791-8e2b-46b6-8b6c-acccbab0e0db)
-Echo Blade | 7 Attack Damage, 1.8 Attack Speed. *Two-Handed*. Right-click to perform a boosted parry, blocking 80% damage and granting Strength II for 1 second on success; has a 2.5-second cooldown. | ![image](https://github.com/Klehrik/Lost_Arcana/assets/78520710/b270a962-6a97-4be2-9e07-f5ce13e4c3a2)
+Wakizashi | 5 Attack Damage, 1.8 Attack Speed, -15% Reach. Right-click to perform a parry, blocking 100% damage and granting Strength I for 1 second on success; has a 2.5-second cooldown. | ![image](https://github.com/Klehrik/Lost_Arcana/assets/78520710/37347791-8e2b-46b6-8b6c-acccbab0e0db)
+Echo Blade | 7 Attack Damage, 1.8 Attack Speed. *Two-Handed*. Right-click to perform a boosted parry, blocking 100% damage and granting Strength II for 1 second on success; has a 2.5-second cooldown. | ![image](https://github.com/Klehrik/Lost_Arcana/assets/78520710/b270a962-6a97-4be2-9e07-f5ce13e4c3a2)

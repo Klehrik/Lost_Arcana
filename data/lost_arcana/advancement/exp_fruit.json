@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "components": {
+                        "minecraft:custom_data": {
+                            "lost_arcana_exp_fruit": true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "lost_arcana:exp_fruit/use"
+    }
+}

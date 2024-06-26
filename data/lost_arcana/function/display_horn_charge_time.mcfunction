@@ -12,6 +12,7 @@ scoreboard players operation ratio lost_arcana_variable /= max_cd lost_arcana_pa
 # Choose display color
 execute if score color lost_arcana_parameter = 0 lost_arcana_number run function lost_arcana:display_charge_white
 execute if score color lost_arcana_parameter = 1 lost_arcana_number run function lost_arcana:display_charge_aqua
+execute if score color lost_arcana_parameter = 2 lost_arcana_number run function lost_arcana:display_charge_red
 
 # Reset color
 scoreboard players operation color lost_arcana_parameter = 0 lost_arcana_number

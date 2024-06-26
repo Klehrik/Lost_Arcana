@@ -1,4 +1,4 @@
-## Display in White
+## Display in White/Yellow
 
 execute if score ratio lost_arcana_variable = 0 lost_arcana_number run title @s actionbar [{"text": "░░░░░░░░░░", "color": "gray"}]
 execute if score ratio lost_arcana_variable = 1 lost_arcana_number run title @s actionbar [{"text": "▓", "color": "white"}, {"text": "░░░░░░░░░", "color": "gray"}]

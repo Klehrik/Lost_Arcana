@@ -1,0 +1,43 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        " G ",
+        "gIg",
+        " g "
+    ],
+    "key": {
+        "I": {
+            "item": "minecraft:iron_ingot"
+        },
+        "g": {
+            "item": "minecraft:gold_nugget"
+        },
+        "G": {
+            "item": "minecraft:gold_ingot"
+        }
+    },
+    "result": {
+        "id": "minecraft:gold_nugget",
+        "components": {
+            "item_name": "{'text': 'Homeward Totem', 'italic': false}",
+            "lore": [
+                "{'text': ''}",
+                "{'text': 'Single-use', 'italic': false, 'color': yellow}",
+                "{'text': 'Teleport home at the', 'italic': false, 'color': gray}",
+                "{'text': 'cost of all experience', 'italic': false, 'color': gray}"
+            ],
+            "food": {
+                "nutrition": 0,
+                "saturation": 0,
+                "can_always_eat": true,
+                "eat_seconds": 3
+            },
+            "custom_data": {
+                "lost_arcana_homeward_totem": true
+            },
+            "max_stack_size": 1,
+            "enchantment_glint_override": true
+        }
+    }
+}
