@@ -38,9 +38,9 @@ Wand of Ice | Summons a block of ice with a lifetime of 5 seconds in front of yo
 Hand Lantern | Emits a weak light when held. | ![image](https://github.com/Klehrik/Lost_Arcana/assets/78520710/65ddfcfe-d15d-4d2b-bc6c-1e2708393ca9)
 Crystal Lantern | Emits a strong light when held. | ![image](https://github.com/Klehrik/Lost_Arcana/assets/78520710/ba7747a3-54c7-422e-8d24-9953ba3e7b6d)
 Ender Satchel | Summons an Ender Chest accessor when held. | ![image](https://github.com/Klehrik/Lost_Arcana/assets/78520710/b1e629f0-ac8c-4882-86aa-92d82cbadf27)
-Homeward Totem | Single-use. Teleport home at the cost of all experience. | recipe TBA
-Shard of Experience | Single-use. Increase your minimum experience level by 1, up to 10. | recipe TBA
-Fruit of Experience | Single-use. Increase your minimum experience level by 1, up to 15. | recipe TBA
+Homeward Totem | Single-use. Teleport home at the cost of all experience. | ![image](https://github.com/Klehrik/Lost_Arcana/assets/78520710/eb6b765a-12a6-41e4-bedc-18c8c73c7efc)
+Shard of Experience | Single-use. Increase your minimum experience level by 1, up to 10. | ![image](https://github.com/Klehrik/Lost_Arcana/assets/78520710/733f5d1c-edc0-4e01-8aa5-9637b4709def)
+Fruit of Experience | Single-use. Increase your minimum experience level by 1, up to 15. | ![image](https://github.com/Klehrik/Lost_Arcana/assets/78520710/d256772c-3125-4e68-a5ca-67962dfd7a1e)
 
 ### Weapons
 Weapon | Stats | Obtain Method
